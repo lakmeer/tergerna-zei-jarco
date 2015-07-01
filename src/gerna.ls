@@ -7,6 +7,9 @@ export class Gerna extends Blitter
     @ctx.font = "20px monospace"
     @ctx.line-width = 10
 
+    @dom = document.create-element \div
+    @dom.class-name = \node
+
   pre-string: ->
     if @pre then "{" + @pre + "} " else ""
 

@@ -8,7 +8,7 @@ export example =
     args:
       fa: sumti: text: "mi"
       fe: sumti: text: "lo se dunda"
-      fi: sumti: text: "do"
+      fi: explicit: yes, sumti: text: "do"
 
 
 # Balnema Chorus

@@ -41,6 +41,8 @@ export map = (λ, xs) -> [ λ x for x in xs ]
 
 export sum = (xs) -> fold (+), 0, xs
 
+export px = (+ \px)
+
 export fold = (λ, i, xs) -->
   for x in xs => i = λ i, x
   return i

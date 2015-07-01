@@ -26,8 +26,7 @@
   },
   "browser": {
     "std": "./src/std/index.ls",
-    "THREE": "./lib/three.min.js",
-    "three-js-vr-extensions": "./lib/mozvr/index.js"
+    "config": "./src/config.ls"
   },
   "browserify": {
     "transform": [
